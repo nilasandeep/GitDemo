@@ -1,0 +1,4 @@
+2023-05-18 22:55:35,787 :INFO :pytestDemo.test_logging :An info statement is executed
+2023-05-18 22:55:35,788 :WARNING :pytestDemo.test_logging :something is in warning mode
+2023-05-18 22:55:35,788 :ERROR :pytestDemo.test_logging :A major error occured
+2023-05-18 22:55:35,788 :CRITICAL :pytestDemo.test_logging :Critical issue
