@@ -6,6 +6,7 @@ import pytest
 @pytest.mark.smoke
 def test_firstProgram():
     print("hello")
+    print("GitDemo")
 
 def test_crossBrowser(crossBrowser): #we have to pass the fixture name "crossBrowser" as parameter in test method
     print(crossBrowser) #first time wuill print chrome, second time, firefox etc
