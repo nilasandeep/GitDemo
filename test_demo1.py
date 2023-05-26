@@ -7,6 +7,7 @@ import pytest
 def test_firstProgram():
     print("hello")
     print("GitDemo")
+    print("This is a new change by GitDemo")
 
 def test_crossBrowser(crossBrowser): #we have to pass the fixture name "crossBrowser" as parameter in test method
     print(crossBrowser) #first time wuill print chrome, second time, firefox etc
